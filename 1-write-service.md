@@ -7,14 +7,14 @@
 	3) написать юнит сервиса в `/etc/systemd/system/watchlog.service`  
 	4) тест, что всё работает без `timer`  
 	5) создать юнит для таймера и запустить его  
-  
-vim /etc/sysconfig/watchlog
+
 ```php
+[root@linux]# vim /etc/sysconfig/watchlog
 # Configuration file for my watchdog service
 # Place it to /etc/sysconfig
 # File and word in that file that we will be monit
 WORD="ALERT"
 LOG=/var/log/watchlog.log
+[root@linux]# 
 ```
-Создать  /var/log/watchlog.log и написать строки,
-плюс ключевое слово ‘ALERT’
+Создать `/var/log/watchlog.log` и написать любые строки, плюс ключевое слово ‘ALERT’.
