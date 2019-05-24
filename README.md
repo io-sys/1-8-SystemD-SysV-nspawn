@@ -2,7 +2,7 @@
 __Домашнее задание__  
   
 ✅ 1. Написать сервис, который будет раз в 30 секунд мониторить лог на предмет наличия ключевого слова. Файл и слово должны задаваться в `/etc/sysconfig`  
-__Решение:__ `(8-1)Vagrantfile` с использованием `Vagrantfile` через `Shell` `Provisioner`. 
+[__Решение:__](https://github.com/io-sys/1-8-SystemD-SysV-nspawn/blob/master/1-write-service.md) `(8-1)Vagrantfile` с использованием `Vagrantfile` через `Shell` `Provisioner`. 
 
 2. Из epel установить spawn-fcgi и переписать init-скрипт на unit-файл. Имя сервиса должно так же называться.  
 
